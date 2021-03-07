@@ -21,9 +21,36 @@
 <div class="grid-container">
   <div class="item1">Hanoi</div>
   <div class="item2">Hue</div>
-  <div class="item3">Da Nang</div>  
+  <div class="item3">Danang</div>  
   <div class="item4">Nha Trang</div>
-  <div class="item5">Da Lat</div>
-  <div class="item6">Hochiminh City</div>
+  <div class="item5">Dalat</div>
+  <div class="item6">Hochiminh</div>
 </div>                                                                                                 
                                                                                                              
+<style>
+.item1 { grid-area: Hanoi; }
+.item2 { grid-area: Hue; }
+.item3 { grid-area: Danang; }
+.item4 { grid-area: Nha Trang; }
+.item5 { grid-area: Dalat;}
+.item6 { grid-area: Hochiminh; }
+  
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'Hanoi Hanoi Hanoi Hanoi Hanoi Hanoi'
+    'Hue Hue Hue Danang Danang Danang'
+    'NhaTrang NhaTrang NhaTrang Dalat Dalat Dalat'
+    'Hochiminh Hochiminh Hochiminh Hochiminh Hochiminh Hochiminh;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(115, 255, 225, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
