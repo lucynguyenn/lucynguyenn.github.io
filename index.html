@@ -14,36 +14,36 @@
   <img src="https://github.com/lucynguyenn/lucynguyenn.github.io/issues/1#issue-823909740" alt="Hanoi_Vietnam">
   <p> (picture from Markus Winkler on pexels.com - CC BY 2.0) </p>
   <br>
-  <h1> Vietnam grid layout </h1>
+  <h1> Number grid layout </h1>
 
 <p>This grid layout contains six columns and three rows:</p>
 
 <div class="grid-container">
-  <div class="item1">Hanoi</div>
-  <div class="item2">Hue</div>
-  <div class="item3">Danang</div>  
-  <div class="item4">Nha Trang</div>
-  <div class="item5">Dalat</div>
-  <div class="item6">Hochiminh</div>
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>  
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+  <div class="item6">6</div>
 </div>                                                                                                 
                                                                                                              
 <style>
-.item1 { grid-area: Hanoi; }
-.item2 { grid-area: Hue; }
-.item3 { grid-area: Danang; }
-.item4 { grid-area: Nha Trang; }
-.item5 { grid-area: Dalat;}
-.item6 { grid-area: Hochiminh; }
+.item1 { grid-area: 1; }
+.item2 { grid-area: 2; }
+.item3 { grid-area: 3; }
+.item4 { grid-area: 4; }
+.item5 { grid-area: 5;}
+.item6 { grid-area: 6; }
   
 .grid-container {
   display: grid;
   grid-template-areas:
-    'Hanoi Hanoi Hanoi Hanoi Hanoi Hanoi'
-    'Hue Hue Hue Danang Danang Danang'
-    'NhaTrang NhaTrang NhaTrang Dalat Dalat Dalat'
-    'Hochiminh Hochiminh Hochiminh Hochiminh Hochiminh Hochiminh;
+    '1 1 1 1 1 1'
+    '2 2 2 3 3 3'
+    '4 4 4 5 5 5'
+    '6 6 6 6 6 6';
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color: #2186F3;
   padding: 10px;
 }
 
