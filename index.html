@@ -19,36 +19,38 @@
 <p>This grid layout contains two columns and six rows:</p>
 
 <div class="grid-container">
-  <div class="item1">1</div>
-  <div class="item2">2</div>
-  <div class="item3">3</div>  
-  <div class="item4">4</div>
-  <div class="item5">5</div>
-  <div class="item6">6</div>
-</div>                                                                                                 
+  <div class="item1">Hanoi</div>
+  <div class="item2">Hue</div>
+  <div class="item3">Dalat</div>  
+  <div class="item4">Halong</div>
+  <div class="item5">Hochiminh</div>
+</div> 
+ <div class="grid-container">
+   <img src="https://user-images.githubusercontent.com/80201388/110242593-6237c000-7f89-11eb-9987-70a7af984264.jpg" alt="rescue">
                                                                                                              
 <style>
 .item1 { grid-area: 1; }
 .item2 { grid-area: 2; }
 .item3 { grid-area: 3; }
 .item4 { grid-area: 4; }
-.item5 { grid-area: 5;}
+.item5 { grid-area: 5; }
 .item6 { grid-area: 6; }
   
 .grid-container {
   display: grid;
   grid-template-areas:
-    '1 1 1 1 1 1'
-    '2 2 2 3 3 3'
-    '4 4 4 5 5 5'
-    '6 6 6 6 6 6';
+    'Hanoi Hanoi Hanoi Hanoi Hanoi Hanoi'
+    'Hue Hue Hue Hue Hue Hue'
+    'Dalat Dalat Dalat Dalat Dalat Dalat'
+    'Halong Halong Halong Halong Halong Halong'
+    'Hochiminh Hochiminh Hochiminh Hochiminh Hochiminh Hochiminh' ;
   grid-gap: 10px;
-  background-color: #pink;
+  background-color: rgba(90,150,85,0);
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: rgba(115, 255, 225, 0.8);
+  background-color: rgba(115, 225, 225, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
