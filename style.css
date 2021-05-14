@@ -1,0 +1,80 @@
+html{
+    font-size: 30px;
+    font-family: "Liberation Mono", monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Liberation Mono" monospace;
+}
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+section p{
+    font-size: 25px;
+    color: rgb(247, 242, 242);
+    word-spacing: 2.5px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px yellow;
+}
+section h3{
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 80px;
+    letter-spacing: 5px;
+    text-shadow: 1.5px 4px 3.5px rgb(240, 23, 66);
+}
+section h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:darkorange;
+}
+span{
+    color: red;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+section .navbuttons{
+    background: #96e602;
+    color: #000;
+}
+section .navbuttons:hover{
+    background: rgb(255, 83, 3);
+    color: #000
+}
+.change_content:after{
+    content: '';
+    animation: changetext 12s infinite linear;
+    color: #f5f103;
+}
+@keyframes changetext{
+    0%{content:"Sapa, Ha Giang";}
+    10%{content:"Ninh Binh"}
+    20%{content:"Ha Long Bay"}
+    30%{content:"Hue"}
+    40%{content:"Da Nang - Hoi An"}
+    50%{content:"Nha Trang"}
+    60%{content:"Mui Ne - Phan Thiet"}
+    70%{content:"Da Lat"}
+    80%{content:"Hochiminh City"}
+    90%{content:"Mekong Delta"}
+    100%{content:"Phu Quoc Island"}
+}

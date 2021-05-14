@@ -1,0 +1,62 @@
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gold;
+    text-transform: uppercase;
+}
+.logo{
+    width: 25%;
+    text-align: center;
+   
+}
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.menu a{
+    width: 25%;
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    position: relative;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
+.menu a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:rgb(188, 248, 238);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.menu a:hover::after{
+    width: 100%;
+}
+.menu a:first-child{
+    color:chartreuse;
+}
+@media screen and (max-width: 950px){
+    .navbar{
+        flex-direction: column;
+    }
+}
+
+/* I learned about this navbar idea from a video on Youtube with account name Easy Tutorials */
