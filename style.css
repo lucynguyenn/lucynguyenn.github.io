@@ -61,7 +61,6 @@ section .navbuttons:hover{
     content: '';
     animation: changetext 12s infinite linear;
     color: #f5f103;
-    font-size: 30px;
 }
 @keyframes changetext{
     0%{content:"Sapa, Ha Giang";}
