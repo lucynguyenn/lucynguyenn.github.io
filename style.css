@@ -78,8 +78,6 @@ section .navbuttons:hover{
     90%{content:"Mekong Delta"}
     100%{content:"Phu Quoc Island"}
 }
-@media (max-width: 1200px){
-    .change_content {display: none;}
     
 
 /*I learned about the change_text idea from a video on Youtube with account name Thapa Technical
