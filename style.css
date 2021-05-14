@@ -19,6 +19,10 @@ header {
     padding-right: 5%;
     box-sizing: border-box;
 }
+span{
+    color: yellow;
+    font-size: 50px;
+}
 section p{
     font-size: 25px;
     color: rgb(247, 242, 242);
