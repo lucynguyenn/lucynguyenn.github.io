@@ -1,12 +1,12 @@
 html{
     font-size: 30px;
-    font-family: "Liberation Mono", monospace;
+    font-family: monospace;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Liberation Mono" monospace;
+    font-family: monospace;
 }
 header {
     height: 100vh;
@@ -38,9 +38,6 @@ section h1{
     font-weight: 700;
     text-transform: uppercase;
     color:darkorange;
-}
-span{
-    color: red;
 }
 section a{
     padding: 12px 30px;
