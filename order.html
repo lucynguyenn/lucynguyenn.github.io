@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Final Project | Lucy Nguyen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+<body>
+<!--Alert Order Start
+<div class="alert-success">
+    <span>Your order is successful!! Thank you so much for your order.</span><br>
+    <span> Have a nice day</span>
+</div>
+<div class="alert-error">
+    <span>Something went wrong! Please try agian</span>
+</div>-->
+<!--Alert Order End-->
+
+<!-- Order-->
+    <div class="order-section">
+        <div class="order-info">
+            <div><i class="fas fa-house-user"></i> 35 Jyväskylä, FINLAND</div>
+            <div><i class="fas fa-phone"></i> +030 50 709 0000</div>
+            <div><i class="fas fa-envelope-open"></i> vietnamspecialties@gmail.com</div>
+        </div>
+        <div class="order-form">
+            <h1>Order</h1>
+            <br>
+            <form class="order" action="" method="post">
+                <!--Delivery Method-->
+                <h3>Delivery Method:</h3><br>
+                <input type="radio" id="ship" name="type" value="ship">
+                <label for="ship">Ship</label><br>
+                <input type="radio" id="pickup" name="type" value="pickup">
+                <label for="pickup">Pick up</label><br>
+                <br>
+                <!--Shipping address-->
+                <h3>Shipping addres</h3>
+                <br>
+                <input type="text" name="fname" class="text-box" placeholder="First Name" required>
+                <input type="text" name="lname" class="text-box" placeholder="Last Name" required><br>
+                <br>
+                <input type="text" name="address" class="text-box" placeholder="Address" required><br>
+                <br>
+                <input type="text" name="phone" class="text-box" placeholder="Phone" required><br>
+                <br>
+                <input type="text" name="city" class="text-box" placeholder="City" required><br>
+                <br>
+                <label for="products">Product's name</label>
+                <select name="products" id="products">
+                    <option value="arabica">Arabica Coffee</option>
+                    <option value="culi">Culi Coffee</option>
+                    <option value="robusta">Robusta Coffee</option>
+                    <option value="oolong">Oolong Tea</option>
+                    <option value="greentea">Green Tea</option>
+                    <option value="rice">Early Green Rice</option>
+                </select><br>
+                <br>
+                <label for="type">Product Type</label>
+                <select name="type" id="type">
+                    <option value="type">250GR</option>
+                    <option value="type">500GR</option>
+                    <option value="type">1kilogram</option>
+                </select>
+                <br>
+                <br>
+                <textarea name="message" rows="5" placeholder="Your Messages" required></textarea><br>
+                <br>
+                <input type="submit" name="submit" class="send-btn" value="Check out" >
+            </form>
+        </div>
+    </div>
+<!--End Order-->
+</body>
+</html>
